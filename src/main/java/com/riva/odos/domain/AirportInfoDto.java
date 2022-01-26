@@ -1,16 +1,27 @@
 package com.riva.odos.domain;
 
-import lombok.AllArgsConstructor;
+import java.io.Serializable;
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
-public class AirportInfoDto {
+@NoArgsConstructor
+public class AirportInfoDto implements Serializable {
+	private static final long serialVersionUID = -8027368470680338967L;
 	private String name;
-	private String occupation;
-	private String company;
-	private String gender;
-	private String birthDate;
-	private String salary;
-	private String email;
+	private String shortcode;
+	private String city;
+	private String state;
+	private Long latitude;
+	private Long longitude;
+	private Integer utc;
+	private Boolean dst;
+	private Boolean precheck;
+	@JsonProperty("checkpoints")
+	private List<CheckPointDto> checkpoints;
 }
+

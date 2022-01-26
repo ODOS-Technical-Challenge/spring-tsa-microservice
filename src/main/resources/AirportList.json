@@ -9,13 +9,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "HSV-A",
             "shortname": "HSV-A"
          }
-      }
+      ]
    },
    {
       "name": "Mobile Regional",
@@ -27,13 +27,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MOB-A",
             "shortname": "MOB-A"
          }
-      }
+      ]
    },
    {
       "name": "Dothan Regional",
@@ -45,13 +45,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "DHN-A",
             "shortname": "DHN-A"
          }
-      }
+      ]
    },
    {
       "name": "Montgomery Regional",
@@ -63,13 +63,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MGM-A",
             "shortname": "MGM-A"
          }
-      }
+      ]
    },
    {
       "name": "Muscle Shoals",
@@ -81,13 +81,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MSL",
             "shortname": "MSL"
          }
-      }
+      ]
    },
    {
       "name": "Birmingham-Shuttlesworth International",
@@ -155,13 +155,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "ASAA-FAI",
             "shortname": "ASAA-FAI"
          }
-      }
+      ]
    },
    {
       "name": "Juneau International",
@@ -173,13 +173,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "JNU-01",
             "shortname": "JNU-01"
          }
-      }
+      ]
    },
    {
       "name": "Adak Naval Air Station",
@@ -191,13 +191,13 @@
       "utc": -10,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint1",
             "shortname": "Checkpoint1"
          }
-      }
+      ]
    },
    {
       "name": "Kodiak State",
@@ -209,13 +209,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Terminal",
             "shortname": "Main Terminal"
          }
-      }
+      ]
    },
    {
       "name": "King Salmon",
@@ -227,13 +227,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "ASAA SCP",
             "shortname": "ASAA SCP"
          }
-      }
+      ]
    },
    {
       "name": "Bethel",
@@ -245,13 +245,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "BET-01",
             "shortname": "BET-01"
          }
-      }
+      ]
    },
    {
       "name": "Wiley Post - Will Rogers Memorial",
@@ -263,13 +263,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "BRW-01",
             "shortname": "BRW-01"
          }
-      }
+      ]
    },
    {
       "name": "Merle K. \"Mudhole\" Smith",
@@ -281,13 +281,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint CDV-01",
             "shortname": "Checkpoint CDV-01"
          }
-      }
+      ]
    },
    {
       "name": "Dillingham",
@@ -299,13 +299,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "DLG-01",
             "shortname": "DLG-01"
          }
-      }
+      ]
    },
    {
       "name": "Gustavus",
@@ -317,13 +317,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "ASAA-GST",
             "shortname": "ASAA-GST"
          }
-      }
+      ]
    },
    {
       "name": "Ketchikan International",
@@ -335,13 +335,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "KTN-01",
             "shortname": "KTN-01"
          }
-      }
+      ]
    },
    {
       "name": "Nome",
@@ -353,13 +353,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "OME-01",
             "shortname": "OME-01"
          }
-      }
+      ]
    },
    {
       "name": "Ralph Wien Memorial",
@@ -371,13 +371,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "OTZ-01",
             "shortname": "OTZ-01"
          }
-      }
+      ]
    },
    {
       "name": "Petersburg",
@@ -389,13 +389,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PSG-01",
             "shortname": "PSG-01"
          }
-      }
+      ]
    },
    {
       "name": "Deadhorse",
@@ -430,13 +430,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SIT-01",
             "shortname": "SIT-01"
          }
-      }
+      ]
    },
    {
       "name": "Wrangell",
@@ -448,13 +448,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "WRG-01",
             "shortname": "WRG-01"
          }
-      }
+      ]
    },
    {
       "name": "Yakutat",
@@ -466,13 +466,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "YAK-01",
             "shortname": "YAK-01"
          }
-      }
+      ]
    },
    {
       "name": "Kenai Municipal",
@@ -484,13 +484,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Homer",
@@ -502,13 +502,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Valdez",
@@ -520,13 +520,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Phoenix Sky Harbor International",
@@ -609,13 +609,13 @@
       "utc": -7,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "FLG01",
             "shortname": "FLG01"
          }
-      }
+      ]
    },
    {
       "name": "Laughlin/Bullhead International",
@@ -627,13 +627,13 @@
       "utc": -7,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "IFP01",
             "shortname": "IFP01"
          }
-      }
+      ]
    },
    {
       "name": "Phoenix-Mesa Gateway",
@@ -645,13 +645,13 @@
       "utc": -7,
       "dst": "False",
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint 1",
             "shortname": "Checkpoint 1"
          }
-      }
+      ]
    },
    {
       "name": "Prescott Municipal",
@@ -663,13 +663,13 @@
       "utc": -7,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PRC01",
             "shortname": "PRC01"
          }
-      }
+      ]
    },
    {
       "name": "Kingman",
@@ -681,13 +681,13 @@
       "utc": -7,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "IGM01",
             "shortname": "IGM01"
          }
-      }
+      ]
    },
    {
       "name": "Yuma International",
@@ -699,13 +699,13 @@
       "utc": -7,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "YUM01",
             "shortname": "YUM01"
          }
-      }
+      ]
    },
    {
       "name": "Page Municipal",
@@ -717,13 +717,13 @@
       "utc": -7,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PGA01",
             "shortname": "PGA01"
          }
-      }
+      ]
    },
    {
       "name": "Show Low Regional",
@@ -735,13 +735,13 @@
       "utc": -7,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PAX Checkpoint",
             "shortname": "PAX Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Bill and Hillary Clinton National",
@@ -753,13 +753,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint A",
             "shortname": "Main Checkpoint A"
          }
-      }
+      ]
    },
    {
       "name": "Northwest Arkansas Regional",
@@ -771,13 +771,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Fort Smith Regional",
@@ -789,13 +789,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "FSMA",
             "shortname": "FSMA"
          }
-      }
+      ]
    },
    {
       "name": "Texarkana Regional",
@@ -807,13 +807,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "TXK01",
             "shortname": "TXK01"
          }
-      }
+      ]
    },
    {
       "name": "South Arkansas Regional",
@@ -825,13 +825,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint1",
             "shortname": "Checkpoint1"
          }
-      }
+      ]
    },
    {
       "name": "Hot Springs Memorial Field",
@@ -843,13 +843,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint1",
             "shortname": "Checkpoint1"
          }
-      }
+      ]
    },
    {
       "name": "Boone County",
@@ -861,13 +861,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint1",
             "shortname": "Checkpoint1"
          }
-      }
+      ]
    },
    {
       "name": "Jonesboro Municipal",
@@ -879,13 +879,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint1",
             "shortname": "Checkpoint1"
          }
-      }
+      ]
    },
    {
       "name": "Los Angeles International",
@@ -1222,13 +1222,13 @@
       "utc": -8,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main",
             "shortname": "Main"
          }
-      }
+      ]
    },
    {
       "name": "Palm Springs Regional",
@@ -1240,13 +1240,13 @@
       "utc": -8,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PSP01",
             "shortname": "PSP01"
          }
-      }
+      ]
    },
    {
       "name": "Santa Barbara Municipal",
@@ -1281,13 +1281,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "ACV01",
             "shortname": "ACV01"
          }
-      }
+      ]
    },
    {
       "name": "Meadows Field, Bakersfield",
@@ -1322,13 +1322,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Monterey Peninsula",
@@ -1340,13 +1340,13 @@
       "utc": -8,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MRY02",
             "shortname": "MRY02"
          }
-      }
+      ]
    },
    {
       "name": "Redding Municipal",
@@ -1358,13 +1358,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "RDD01",
             "shortname": "RDD01"
          }
-      }
+      ]
    },
    {
       "name": "San Luis Obispo County",
@@ -1376,13 +1376,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SBP01",
             "shortname": "SBP01"
          }
-      }
+      ]
    },
    {
       "name": "Stockton Regional",
@@ -1394,13 +1394,13 @@
       "utc": -8,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SCK Main Checkpoint",
             "shortname": "SCK Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Santa Maria Public",
@@ -1412,13 +1412,13 @@
       "utc": -8,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SMX01",
             "shortname": "SMX01"
          }
-      }
+      ]
    },
    {
       "name": "Sonoma County/ Santa Rosa",
@@ -1430,13 +1430,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "STS01",
             "shortname": "STS01"
          }
-      }
+      ]
    },
    {
       "name": "Crescent City",
@@ -1448,13 +1448,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "CEC01",
             "shortname": "CEC01"
          }
-      }
+      ]
    },
    {
       "name": "Chico Municipal",
@@ -1466,13 +1466,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "1",
             "shortname": "1"
          }
-      }
+      ]
    },
    {
       "name": "McClellan-Palomar",
@@ -1484,13 +1484,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint 1",
             "shortname": "Checkpoint 1"
          }
-      }
+      ]
    },
    {
       "name": "Imperial County",
@@ -1502,13 +1502,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "IPL01",
             "shortname": "IPL01"
          }
-      }
+      ]
    },
    {
       "name": "Indian Wells Valley",
@@ -1520,13 +1520,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "IYK Airport",
             "shortname": "IYK Airport"
          }
-      }
+      ]
    },
    {
       "name": "Merced Municipal",
@@ -1538,13 +1538,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Terminal",
             "shortname": "Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Modesto City County",
@@ -1556,13 +1556,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Terminal hold area",
             "shortname": "Terminal hold area"
          }
-      }
+      ]
    },
    {
       "name": "Oxnard",
@@ -1574,13 +1574,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "OXR01",
             "shortname": "OXR01"
          }
-      }
+      ]
    },
    {
       "name": "Palmdale Regional",
@@ -1592,13 +1592,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PMD-01",
             "shortname": "PMD-01"
          }
-      }
+      ]
    },
    {
       "name": "Visalia Municipal",
@@ -1610,13 +1610,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Terminal",
             "shortname": "Main Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Denver International",
@@ -1656,13 +1656,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Aspen Pitkin County Sardy Field",
@@ -1674,13 +1674,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint 1",
             "shortname": "Checkpoint 1"
          }
-      }
+      ]
    },
    {
       "name": "Durango-La  Plata County",
@@ -1692,13 +1692,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Eagle County Regional",
@@ -1710,13 +1710,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Fort Collins-Loveland Municipal",
@@ -1728,13 +1728,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Ft. Collins",
             "shortname": "Ft. Collins"
          }
-      }
+      ]
    },
    {
       "name": "Grand Junction Regional",
@@ -1746,13 +1746,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GJTZ",
             "shortname": "GJTZ"
          }
-      }
+      ]
    },
    {
       "name": "Gunnison County",
@@ -1764,13 +1764,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GUC1",
             "shortname": "GUC1"
          }
-      }
+      ]
    },
    {
       "name": "Yampa Valley",
@@ -1782,13 +1782,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "HDN A",
             "shortname": "HDN A"
          }
-      }
+      ]
    },
    {
       "name": "Montrose County",
@@ -1800,13 +1800,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MTJZ",
             "shortname": "MTJZ"
          }
-      }
+      ]
    },
    {
       "name": "San Luis Valley/Bergman Field",
@@ -1818,13 +1818,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Alamosa Airport",
             "shortname": "Alamosa Airport"
          }
-      }
+      ]
    },
    {
       "name": "Cortez Municipal",
@@ -1836,13 +1836,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Cotez-Mun. Cty Arpt",
             "shortname": "Cotez-Mun. Cty Arpt"
          }
-      }
+      ]
    },
    {
       "name": "Pueblo Memorial",
@@ -1854,13 +1854,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PUBZ",
             "shortname": "PUBZ"
          }
-      }
+      ]
    },
    {
       "name": "Telluride Regional",
@@ -1872,13 +1872,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "TEXZ",
             "shortname": "TEXZ"
          }
-      }
+      ]
    },
    {
       "name": "Bradley International",
@@ -1913,13 +1913,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main",
             "shortname": "Main"
          }
-      }
+      ]
    },
    {
       "name": "Ft. Lauderdale-Hollywood International",
@@ -2187,13 +2187,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "DAB A",
             "shortname": "DAB A"
          }
-      }
+      ]
    },
    {
       "name": "Key West International",
@@ -2205,13 +2205,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GATE ONE CHECKPOINT",
             "shortname": "GATE ONE CHECKPOINT"
          }
-      }
+      ]
    },
    {
       "name": "Melbourne International",
@@ -2223,13 +2223,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MLB A",
             "shortname": "MLB A"
          }
-      }
+      ]
    },
    {
       "name": "St Petersburg-Clearwater International",
@@ -2264,13 +2264,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PNS-A",
             "shortname": "PNS-A"
          }
-      }
+      ]
    },
    {
       "name": "Orlando Sanford",
@@ -2305,13 +2305,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SRQ B",
             "shortname": "SRQ B"
          }
-      }
+      ]
    },
    {
       "name": "Tallahassee Regional",
@@ -2323,13 +2323,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "TLH A",
             "shortname": "TLH A"
          }
-      }
+      ]
    },
    {
       "name": "Okaloosa County Air Terminal",
@@ -2341,13 +2341,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "VPS-A",
             "shortname": "VPS-A"
          }
-      }
+      ]
    },
    {
       "name": "Gainesville Regional",
@@ -2359,13 +2359,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GNV A",
             "shortname": "GNV A"
          }
-      }
+      ]
    },
    {
       "name": "Panama City-Bay County International",
@@ -2377,13 +2377,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PFN A",
             "shortname": "PFN A"
          }
-      }
+      ]
    },
    {
       "name": "Naples Municipal",
@@ -2395,13 +2395,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "APF A",
             "shortname": "APF A"
          }
-      }
+      ]
    },
    {
       "name": "Hartsfield-Jackson Atlanta International",
@@ -2451,13 +2451,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SAV-A",
             "shortname": "SAV-A"
          }
-      }
+      ]
    },
    {
       "name": "Augusta Regional",
@@ -2469,13 +2469,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "AGS-1",
             "shortname": "AGS-1"
          }
-      }
+      ]
    },
    {
       "name": "Columbus Airport",
@@ -2487,13 +2487,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "CSG-A",
             "shortname": "CSG-A"
          }
-      }
+      ]
    },
    {
       "name": "Middle Georgia Regional",
@@ -2505,13 +2505,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MCN-A",
             "shortname": "MCN-A"
          }
-      }
+      ]
    },
    {
       "name": "Valdosta Municipal",
@@ -2523,13 +2523,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "VLD-A",
             "shortname": "VLD-A"
          }
-      }
+      ]
    },
    {
       "name": "Southwest Georgia Regional",
@@ -2541,13 +2541,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "ABY-A",
             "shortname": "ABY-A"
          }
-      }
+      ]
    },
    {
       "name": "Athens/ Ben Epps",
@@ -2559,13 +2559,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "AHN-A",
             "shortname": "AHN-A"
          }
-      }
+      ]
    },
    {
       "name": "Brunswick Golden Isles Airport",
@@ -2577,13 +2577,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Honolulu International",
@@ -2681,13 +2681,13 @@
       "utc": -10,
       "dst": "False",
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "LIH01",
             "shortname": "LIH01"
          }
-      }
+      ]
    },
    {
       "name": "Kahului",
@@ -2722,13 +2722,13 @@
       "utc": -10,
       "dst": "False",
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "ITO01",
             "shortname": "ITO01"
          }
-      }
+      ]
    },
    {
       "name": "Kapalua",
@@ -2740,13 +2740,13 @@
       "utc": -10,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PAX Checkpoint",
             "shortname": "PAX Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Lanai",
@@ -2758,13 +2758,13 @@
       "utc": -10,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "LNY01",
             "shortname": "LNY01"
          }
-      }
+      ]
    },
    {
       "name": "Molokai",
@@ -2776,13 +2776,13 @@
       "utc": -10,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MKK01",
             "shortname": "MKK01"
          }
-      }
+      ]
    },
    {
       "name": "Boise Air Terminal/Gowen Field",
@@ -2794,13 +2794,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main",
             "shortname": "Main"
          }
-      }
+      ]
    },
    {
       "name": "Idaho Falls Municipal",
@@ -2812,13 +2812,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "IDAZ",
             "shortname": "IDAZ"
          }
-      }
+      ]
    },
    {
       "name": "Lewiston - Nez Perce County",
@@ -2830,13 +2830,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SSC Main",
             "shortname": "SSC Main"
          }
-      }
+      ]
    },
    {
       "name": "Pocatello Regional",
@@ -2848,13 +2848,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PIHZ",
             "shortname": "PIHZ"
          }
-      }
+      ]
    },
    {
       "name": "Friedman Memorial",
@@ -2866,13 +2866,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SUN1",
             "shortname": "SUN1"
          }
-      }
+      ]
    },
    {
       "name": "Magic Valley Regional",
@@ -2884,13 +2884,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "TWFZ",
             "shortname": "TWFZ"
          }
-      }
+      ]
    },
    {
       "name": "Chicago-O'Hare International",
@@ -2985,13 +2985,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Quad City",
@@ -3003,13 +3003,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Primary",
             "shortname": "Primary"
          }
-      }
+      ]
    },
    {
       "name": "Mid-America",
@@ -3021,13 +3021,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Concourse",
             "shortname": "Concourse"
          }
-      }
+      ]
    },
    {
       "name": "Bloomington-Normal",
@@ -3039,13 +3039,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "University Of Illinois-Willard",
@@ -3057,13 +3057,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "General Wayne A. Downing Peoria Intl.",
@@ -3075,13 +3075,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MAIN",
             "shortname": "MAIN"
          }
-      }
+      ]
    },
    {
       "name": "Greater Rockford",
@@ -3093,13 +3093,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SECOND LEVEL",
             "shortname": "SECOND LEVEL"
          }
-      }
+      ]
    },
    {
       "name": "Abraham Lincoln Capital",
@@ -3111,13 +3111,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MAIN",
             "shortname": "MAIN"
          }
-      }
+      ]
    },
    {
       "name": "Decatur",
@@ -3129,13 +3129,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MAIN",
             "shortname": "MAIN"
          }
-      }
+      ]
    },
    {
       "name": "Williamson County",
@@ -3147,13 +3147,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Quincy Municipal",
@@ -3165,13 +3165,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MAIN",
             "shortname": "MAIN"
          }
-      }
+      ]
    },
    {
       "name": "Indianapolis International",
@@ -3206,13 +3206,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "South Bend Regional",
@@ -3270,13 +3270,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Eastern Iowa",
@@ -3288,13 +3288,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Concourse",
             "shortname": "Main Concourse"
          }
-      }
+      ]
    },
    {
       "name": "Des Moines International",
@@ -3306,13 +3306,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Concourse",
             "shortname": "Main Concourse"
          }
-      }
+      ]
    },
    {
       "name": "Colonel Bud Day Field",
@@ -3324,13 +3324,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Waterloo Municipal",
@@ -3342,13 +3342,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "ALO-1",
             "shortname": "ALO-1"
          }
-      }
+      ]
    },
    {
       "name": "Southeast Iowa Regional",
@@ -3360,13 +3360,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "BRL-1",
             "shortname": "BRL-1"
          }
-      }
+      ]
    },
    {
       "name": "Dubuque Regional",
@@ -3378,13 +3378,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "DBQ-1",
             "shortname": "DBQ-1"
          }
-      }
+      ]
    },
    {
       "name": "Fort Dodge Municipal",
@@ -3396,13 +3396,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "FOD-1",
             "shortname": "FOD-1"
          }
-      }
+      ]
    },
    {
       "name": "Mason City Municipal",
@@ -3414,13 +3414,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MCW-1",
             "shortname": "MCW-1"
          }
-      }
+      ]
    },
    {
       "name": "Wichita Dwight D. Eisenhower National Airport",
@@ -3432,13 +3432,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Wichita Main",
             "shortname": "Wichita Main"
          }
-      }
+      ]
    },
    {
       "name": "Forbes Field",
@@ -3450,13 +3450,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "FOE-1",
             "shortname": "FOE-1"
          }
-      }
+      ]
    },
    {
       "name": "Dodge City Regional",
@@ -3468,13 +3468,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "DDC-1",
             "shortname": "DDC-1"
          }
-      }
+      ]
    },
    {
       "name": "Great Bend Municipal",
@@ -3486,13 +3486,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GBD-1",
             "shortname": "GBD-1"
          }
-      }
+      ]
    },
    {
       "name": "Garden City Municipal",
@@ -3504,13 +3504,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GCK-1",
             "shortname": "GCK-1"
          }
-      }
+      ]
    },
    {
       "name": "Hays Regional",
@@ -3522,13 +3522,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "HYS-1",
             "shortname": "HYS-1"
          }
-      }
+      ]
    },
    {
       "name": "Liberal Municipal",
@@ -3540,13 +3540,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "LBL-1",
             "shortname": "LBL-1"
          }
-      }
+      ]
    },
    {
       "name": "Manhattan Regional",
@@ -3558,13 +3558,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main",
             "shortname": "Main"
          }
-      }
+      ]
    },
    {
       "name": "Salina Municipal",
@@ -3576,13 +3576,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SLN-1",
             "shortname": "SLN-1"
          }
-      }
+      ]
    },
    {
       "name": "Cincinnati/Northern Kentucky International",
@@ -3622,13 +3622,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SDF-A",
             "shortname": "SDF-A"
          }
-      }
+      ]
    },
    {
       "name": "Blue Grass",
@@ -3640,13 +3640,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "LEX-A",
             "shortname": "LEX-A"
          }
-      }
+      ]
    },
    {
       "name": "Owensboro Davies County",
@@ -3658,13 +3658,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "OWB-A",
             "shortname": "OWB-A"
          }
-      }
+      ]
    },
    {
       "name": "Barkley Regional",
@@ -3676,13 +3676,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PAH",
             "shortname": "PAH"
          }
-      }
+      ]
    },
    {
       "name": "Lake Cumberland Regional",
@@ -3694,13 +3694,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Louis Armstrong New Orleans International",
@@ -3745,13 +3745,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "BTR01",
             "shortname": "BTR01"
          }
-      }
+      ]
    },
    {
       "name": "Shreveport Regional",
@@ -3786,13 +3786,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "LFT01",
             "shortname": "LFT01"
          }
-      }
+      ]
    },
    {
       "name": "Alexandria International",
@@ -3804,13 +3804,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "AEX01",
             "shortname": "AEX01"
          }
-      }
+      ]
    },
    {
       "name": "Lake Charles Regional",
@@ -3822,13 +3822,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "LCH01",
             "shortname": "LCH01"
          }
-      }
+      ]
    },
    {
       "name": "Monroe Regional",
@@ -3840,13 +3840,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MLU01",
             "shortname": "MLU01"
          }
-      }
+      ]
    },
    {
       "name": "Bangor International",
@@ -3886,13 +3886,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint 1",
             "shortname": "Checkpoint 1"
          }
-      }
+      ]
    },
    {
       "name": "Augusta State",
@@ -3904,13 +3904,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate 1",
             "shortname": "Gate 1"
          }
-      }
+      ]
    },
    {
       "name": "Hancock County",
@@ -3922,13 +3922,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate 1",
             "shortname": "Gate 1"
          }
-      }
+      ]
    },
    {
       "name": "Northern Maine Regional",
@@ -3940,13 +3940,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "gate 1",
             "shortname": "gate 1"
          }
-      }
+      ]
    },
    {
       "name": "Knox County Regional",
@@ -3958,13 +3958,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate 1",
             "shortname": "Gate 1"
          }
-      }
+      ]
    },
    {
       "name": "Baltimore-Washington International",
@@ -4014,13 +4014,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Salisbury / Wicomico County Regional",
@@ -4032,13 +4032,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SBY01",
             "shortname": "SBY01"
          }
-      }
+      ]
    },
    {
       "name": "Logan International",
@@ -4128,13 +4128,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate 1",
             "shortname": "Gate 1"
          }
-      }
+      ]
    },
    {
       "name": "Hanscom Field",
@@ -4146,13 +4146,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate 1",
             "shortname": "Gate 1"
          }
-      }
+      ]
    },
    {
       "name": "Westover Metropolitan",
@@ -4164,13 +4164,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main",
             "shortname": "Main"
          }
-      }
+      ]
    },
    {
       "name": "Barnstable Municipal",
@@ -4182,13 +4182,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Martha's Vineyard",
@@ -4200,13 +4200,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate 1",
             "shortname": "Gate 1"
          }
-      }
+      ]
    },
    {
       "name": "Worcester Municipal",
@@ -4218,13 +4218,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Provincetown Minicipal",
@@ -4236,13 +4236,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Detroit Metropolitan Wayne County",
@@ -4302,13 +4302,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "AOO-01",
             "shortname": "AOO-01"
          }
-      }
+      ]
    },
    {
       "name": "Kent County International",
@@ -4343,13 +4343,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Kalamazoo Municipal",
@@ -4361,13 +4361,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main",
             "shortname": "Main"
          }
-      }
+      ]
    },
    {
       "name": "MBS International",
@@ -4379,13 +4379,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Passenger Terminal",
             "shortname": "Passenger Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Cherry Capital",
@@ -4397,13 +4397,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "TVC1",
             "shortname": "TVC1"
          }
-      }
+      ]
    },
    {
       "name": "Alpena County Regional",
@@ -4415,13 +4415,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "APN1",
             "shortname": "APN1"
          }
-      }
+      ]
    },
    {
       "name": "Chippewa County International",
@@ -4433,13 +4433,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "CIU1",
             "shortname": "CIU1"
          }
-      }
+      ]
    },
    {
       "name": "Houghton County Memorial",
@@ -4451,13 +4451,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Delta County",
@@ -4469,13 +4469,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Ford",
@@ -4487,13 +4487,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Gogebic County",
@@ -4505,13 +4505,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Manistee County Blacker",
@@ -4523,13 +4523,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MBL1",
             "shortname": "MBL1"
          }
-      }
+      ]
    },
    {
       "name": "Muskegon County International",
@@ -4541,13 +4541,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Pellston Regional",
@@ -4559,13 +4559,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PLN1",
             "shortname": "PLN1"
          }
-      }
+      ]
    },
    {
       "name": "Sawyer International",
@@ -4577,13 +4577,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Chisholm-Hibbing Municipal",
@@ -4595,13 +4595,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Minneapolis-St. Paul International",
@@ -4694,13 +4694,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Bemidji City-County",
@@ -4712,13 +4712,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Brainerd Lakes Regional",
@@ -4730,13 +4730,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Falls International",
@@ -4748,13 +4748,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "St. Cloud Regional",
@@ -4766,13 +4766,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Thief River Falls Regional",
@@ -4784,13 +4784,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Gulfport Bilox Regional",
@@ -4802,13 +4802,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GPT-A",
             "shortname": "GPT-A"
          }
-      }
+      ]
    },
    {
       "name": "Jackson International",
@@ -4843,13 +4843,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint A",
             "shortname": "Checkpoint A"
          }
-      }
+      ]
    },
    {
       "name": "Greenville Municipal",
@@ -4861,13 +4861,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GLH-A",
             "shortname": "GLH-A"
          }
-      }
+      ]
    },
    {
       "name": "Golden Triangle Regional",
@@ -4879,13 +4879,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GTR-A",
             "shortname": "GTR-A"
          }
-      }
+      ]
    },
    {
       "name": "Key Field",
@@ -4897,13 +4897,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MEI-A",
             "shortname": "MEI-A"
          }
-      }
+      ]
    },
    {
       "name": "Pine-belt Regional",
@@ -4915,13 +4915,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Terminal",
             "shortname": "Terminal"
          }
-      }
+      ]
    },
    {
       "name": "CD Lemons Municipal",
@@ -4933,13 +4933,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Terminal",
             "shortname": "Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Lambert St. Louis International",
@@ -5090,13 +5090,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "cape girardeau",
             "shortname": "cape girardeau"
          }
-      }
+      ]
    },
    {
       "name": "Columbia Regional",
@@ -5108,13 +5108,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate 1 Hold Area",
             "shortname": "Gate 1 Hold Area"
          }
-      }
+      ]
    },
    {
       "name": "Kirksville Regional",
@@ -5126,13 +5126,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Kirksville",
             "shortname": "Kirksville"
          }
-      }
+      ]
    },
    {
       "name": "Joplin Regional",
@@ -5144,13 +5144,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Pax Hold Area",
             "shortname": "Main Pax Hold Area"
          }
-      }
+      ]
    },
    {
       "name": "Waynesville St. Robert Regional Forney Field",
@@ -5162,13 +5162,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate 1 Hold Area",
             "shortname": "Gate 1 Hold Area"
          }
-      }
+      ]
    },
    {
       "name": "Bert Mooney",
@@ -5180,13 +5180,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "BTMZ",
             "shortname": "BTMZ"
          }
-      }
+      ]
    },
    {
       "name": "Frank Wiley Field",
@@ -5198,13 +5198,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "L. M. Clayton / Wolf Point",
@@ -5216,13 +5216,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Billings Logan",
@@ -5234,13 +5234,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "BILM",
             "shortname": "BILM"
          }
-      }
+      ]
    },
    {
       "name": "Gallatin Field",
@@ -5252,13 +5252,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "BZNZ",
             "shortname": "BZNZ"
          }
-      }
+      ]
    },
    {
       "name": "Missoula International",
@@ -5270,13 +5270,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Security Screen",
             "shortname": "Main Security Screen"
          }
-      }
+      ]
    },
    {
       "name": "Glacier Park International",
@@ -5288,13 +5288,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Great Falls International",
@@ -5329,13 +5329,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "HLNZ",
             "shortname": "HLNZ"
          }
-      }
+      ]
    },
    {
       "name": "Dawson Community",
@@ -5347,13 +5347,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Glasgow Intl / Wokal Field",
@@ -5365,13 +5365,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Havre City-County",
@@ -5383,13 +5383,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Lewistown Municipal",
@@ -5401,13 +5401,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Sidney-Richland Regional",
@@ -5419,13 +5419,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "West Yellowstone",
@@ -5437,13 +5437,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "WYSZ",
             "shortname": "WYSZ"
          }
-      }
+      ]
    },
    {
       "name": "Eppley Airfield",
@@ -5501,13 +5501,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Alliance",
             "shortname": "Alliance"
          }
-      }
+      ]
    },
    {
       "name": "Scottsbluff County",
@@ -5519,13 +5519,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate 1 Hold Room",
             "shortname": "Gate 1 Hold Room"
          }
-      }
+      ]
    },
    {
       "name": "Chadron Municipal",
@@ -5537,13 +5537,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Chadron 1",
             "shortname": "Chadron 1"
          }
-      }
+      ]
    },
    {
       "name": "Kearney Minicipal",
@@ -5555,13 +5555,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "EAR-1",
             "shortname": "EAR-1"
          }
-      }
+      ]
    },
    {
       "name": "Central Nebraska Regional",
@@ -5573,13 +5573,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GRI-1",
             "shortname": "GRI-1"
          }
-      }
+      ]
    },
    {
       "name": "North Platte Regional",
@@ -5591,13 +5591,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate 1",
             "shortname": "Gate 1"
          }
-      }
+      ]
    },
    {
       "name": "McCook Municipal",
@@ -5609,13 +5609,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate 1",
             "shortname": "Gate 1"
          }
-      }
+      ]
    },
    {
       "name": "McCarran International",
@@ -5698,13 +5698,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint 1",
             "shortname": "Checkpoint 1"
          }
-      }
+      ]
    },
    {
       "name": "Ely Airport",
@@ -5716,13 +5716,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Manchester",
@@ -5762,13 +5762,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate 1",
             "shortname": "Gate 1"
          }
-      }
+      ]
    },
    {
       "name": "Lebanon Municipal",
@@ -5780,13 +5780,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GATE 1-2",
             "shortname": "GATE 1-2"
          }
-      }
+      ]
    },
    {
       "name": "Newark International",
@@ -5856,13 +5856,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Albuquerque International Sunport",
@@ -5874,13 +5874,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint for A/B Gates",
             "shortname": "Checkpoint for A/B Gates"
          }
-      }
+      ]
    },
    {
       "name": "Four Corners Regional",
@@ -5892,13 +5892,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "FMNA",
             "shortname": "FMNA"
          }
-      }
+      ]
    },
    {
       "name": "Roswell International Air Center",
@@ -5910,13 +5910,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "ROWA",
             "shortname": "ROWA"
          }
-      }
+      ]
    },
    {
       "name": "Santa Fe Municipal",
@@ -5928,13 +5928,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GLBA Checkpoint",
             "shortname": "GLBA Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "John F. Kennedy International",
@@ -6062,13 +6062,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Greater Buffalo",
@@ -6080,13 +6080,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Westchester County",
@@ -6098,13 +6098,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Terminal",
             "shortname": "Main Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Long Island MacArthur",
@@ -6139,13 +6139,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main",
             "shortname": "Main"
          }
-      }
+      ]
    },
    {
       "name": "Stewart",
@@ -6157,13 +6157,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Syracuse-Hancock International",
@@ -6198,13 +6198,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "210",
             "shortname": "210"
          }
-      }
+      ]
    },
    {
       "name": "Elmira-Corning Regional",
@@ -6216,13 +6216,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Niagara Falls International",
@@ -6234,13 +6234,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main",
             "shortname": "Main"
          }
-      }
+      ]
    },
    {
       "name": "Plattsburg International",
@@ -6252,13 +6252,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint 1",
             "shortname": "Checkpoint 1"
          }
-      }
+      ]
    },
    {
       "name": "Oneida County at Rome (Griffiss)",
@@ -6270,13 +6270,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint 1",
             "shortname": "Checkpoint 1"
          }
-      }
+      ]
    },
    {
       "name": "Watertown International",
@@ -6288,13 +6288,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate Area #1",
             "shortname": "Gate Area #1"
          }
-      }
+      ]
    },
    {
       "name": "Tompkins County",
@@ -6306,13 +6306,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "240",
             "shortname": "240"
          }
-      }
+      ]
    },
    {
       "name": "Chautauqua County",
@@ -6324,13 +6324,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "250",
             "shortname": "250"
          }
-      }
+      ]
    },
    {
       "name": "Massena International",
@@ -6342,13 +6342,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate Area #1",
             "shortname": "Gate Area #1"
          }
-      }
+      ]
    },
    {
       "name": "Ogdensburg International",
@@ -6360,13 +6360,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate Area #1",
             "shortname": "Gate Area #1"
          }
-      }
+      ]
    },
    {
       "name": "Adirondack Regional",
@@ -6378,13 +6378,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "282",
             "shortname": "282"
          }
-      }
+      ]
    },
    {
       "name": "Charlotte Douglas International",
@@ -6475,13 +6475,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "AVL-A",
             "shortname": "AVL-A"
          }
-      }
+      ]
    },
    {
       "name": "Wilmington International",
@@ -6493,13 +6493,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Terminal",
             "shortname": "Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Coastal Carolina Regional",
@@ -6511,13 +6511,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Terminal",
             "shortname": "Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Fayetteville Regional",
@@ -6529,13 +6529,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Terminal",
             "shortname": "Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Kinston Regional Jetport",
@@ -6547,13 +6547,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Kinston",
             "shortname": "Kinston"
          }
-      }
+      ]
    },
    {
       "name": "Albert J Ellis",
@@ -6565,13 +6565,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Terminal",
             "shortname": "Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Pitt-Greenville",
@@ -6583,13 +6583,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Terminal",
             "shortname": "Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Hector International",
@@ -6601,13 +6601,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Bismarck Municipal",
@@ -6619,13 +6619,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint A",
             "shortname": "Checkpoint A"
          }
-      }
+      ]
    },
    {
       "name": "Grand Forks International",
@@ -6637,13 +6637,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Minot International",
@@ -6655,13 +6655,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Dickinson Regional",
@@ -6673,13 +6673,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Devils Lake Municipal",
@@ -6691,13 +6691,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Sloulin Field International",
@@ -6709,13 +6709,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Jamestown Municipal",
@@ -6727,13 +6727,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Cleveland Hopkins International",
@@ -6806,13 +6806,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main",
             "shortname": "Main"
          }
-      }
+      ]
    },
    {
       "name": "Akron-Canton Regional",
@@ -6824,13 +6824,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main",
             "shortname": "Main"
          }
-      }
+      ]
    },
    {
       "name": "Toledo Express",
@@ -6842,13 +6842,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint 1",
             "shortname": "Checkpoint 1"
          }
-      }
+      ]
    },
    {
       "name": "Rickenbacker International",
@@ -6860,13 +6860,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint 1",
             "shortname": "Checkpoint 1"
          }
-      }
+      ]
    },
    {
       "name": "Youngstown-Warren Regional",
@@ -6878,13 +6878,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Will Rogers World Airport",
@@ -6919,13 +6919,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Central Checkpoint",
             "shortname": "Central Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Lawton Municipal",
@@ -6937,13 +6937,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "LAW01",
             "shortname": "LAW01"
          }
-      }
+      ]
    },
    {
       "name": "Portland International",
@@ -6983,13 +6983,13 @@
       "utc": -8,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "EUGZ",
             "shortname": "EUGZ"
          }
-      }
+      ]
    },
    {
       "name": "Rogue Valley International-Medford",
@@ -7001,13 +7001,13 @@
       "utc": -8,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MFRZ",
             "shortname": "MFRZ"
          }
-      }
+      ]
    },
    {
       "name": "Roberts Field",
@@ -7019,13 +7019,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "RDMZ",
             "shortname": "RDMZ"
          }
-      }
+      ]
    },
    {
       "name": "Kingsley Field",
@@ -7037,13 +7037,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "LMTZ",
             "shortname": "LMTZ"
          }
-      }
+      ]
    },
    {
       "name": "North Bend Municipal",
@@ -7055,13 +7055,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "OTHZ",
             "shortname": "OTHZ"
          }
-      }
+      ]
    },
    {
       "name": "Eastern Oregon Regional - Pendelton",
@@ -7073,13 +7073,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PDTZ",
             "shortname": "PDTZ"
          }
-      }
+      ]
    },
    {
       "name": "McNary Field",
@@ -7091,13 +7091,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint 1",
             "shortname": "Checkpoint 1"
          }
-      }
+      ]
    },
    {
       "name": "Saipan International",
@@ -7109,13 +7109,13 @@
       "utc": 10,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GSN01",
             "shortname": "GSN01"
          }
-      }
+      ]
    },
    {
       "name": "Rota International",
@@ -7127,13 +7127,13 @@
       "utc": 10,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PAX Checkpoint",
             "shortname": "PAX Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Philadelphia International",
@@ -7221,13 +7221,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "ABE Main Terminal",
             "shortname": "ABE Main Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Harrisburg International",
@@ -7239,13 +7239,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MDT Main Terminal",
             "shortname": "MDT Main Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Wilkes Barre/Scranton International",
@@ -7257,13 +7257,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Erie International",
@@ -7275,13 +7275,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Terminal",
             "shortname": "Main Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Altoona-Blair County",
@@ -7293,13 +7293,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "AOO-01",
             "shortname": "AOO-01"
          }
-      }
+      ]
    },
    {
       "name": "Bradford Regional",
@@ -7311,13 +7311,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "BFD01",
             "shortname": "BFD01"
          }
-      }
+      ]
    },
    {
       "name": "Dubois-Jefferson County",
@@ -7329,13 +7329,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "DUJ-01",
             "shortname": "DUJ-01"
          }
-      }
+      ]
    },
    {
       "name": "Venango Regional",
@@ -7347,13 +7347,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "FKL01",
             "shortname": "FKL01"
          }
-      }
+      ]
    },
    {
       "name": "Williamsport Lycoming County",
@@ -7365,13 +7365,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Johnstown-Cambria County",
@@ -7383,13 +7383,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Terminal",
             "shortname": "Main Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Westmoreland County",
@@ -7401,13 +7401,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Terminal",
             "shortname": "Main Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Lancaster",
@@ -7419,13 +7419,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "USAir Exp. Hold Area",
             "shortname": "USAir Exp. Hold Area"
          }
-      }
+      ]
    },
    {
       "name": "Reading Regional",
@@ -7437,13 +7437,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "University Park",
@@ -7455,13 +7455,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Terminal",
             "shortname": "Main Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Luis Munoz Marin International",
@@ -7506,13 +7506,13 @@
       "utc": -4,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Rafael Hernandez Air",
             "shortname": "Rafael Hernandez Air"
          }
-      }
+      ]
    },
    {
       "name": "Mercedita",
@@ -7524,13 +7524,13 @@
       "utc": -4,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Mercedita Airport",
             "shortname": "Mercedita Airport"
          }
-      }
+      ]
    },
    {
       "name": "T F Green State",
@@ -7542,13 +7542,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint A",
             "shortname": "Checkpoint A"
          }
-      }
+      ]
    },
    {
       "name": "Columbia Metropolitan",
@@ -7560,13 +7560,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "CAE-A",
             "shortname": "CAE-A"
          }
-      }
+      ]
    },
    {
       "name": "Charleston International Airport",
@@ -7624,13 +7624,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Terminal",
             "shortname": "Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Hilton Head",
@@ -7642,13 +7642,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Florence Regional",
@@ -7660,13 +7660,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Terminal",
             "shortname": "Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Joe Foss Field",
@@ -7678,13 +7678,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Rapid City Regional",
@@ -7696,13 +7696,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Aberdeen Regional",
@@ -7714,13 +7714,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Watertown Municipal",
@@ -7732,13 +7732,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Huron Minicipal",
@@ -7750,13 +7750,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Pierre Regional",
@@ -7768,13 +7768,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Nashville International",
@@ -7847,13 +7847,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "CHA-A",
             "shortname": "CHA-A"
          }
-      }
+      ]
    },
    {
       "name": "McGhee Tyson",
@@ -7865,13 +7865,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint 1",
             "shortname": "Checkpoint 1"
          }
-      }
+      ]
    },
    {
       "name": "Tri Cities Regional",
@@ -7883,13 +7883,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "TRI-A",
             "shortname": "TRI-A"
          }
-      }
+      ]
    },
    {
       "name": "McKellar-Sipes Regional",
@@ -7901,13 +7901,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MKL-A",
             "shortname": "MKL-A"
          }
-      }
+      ]
    },
    {
       "name": "Dallas/Fort Worth International",
@@ -8136,13 +8136,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Consolidated Checkpoint",
             "shortname": "Consolidated Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "William P. Hobby",
@@ -8154,13 +8154,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "CENTRAL",
             "shortname": "CENTRAL"
          }
-      }
+      ]
    },
    {
       "name": "San Antonio International",
@@ -8195,13 +8195,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "AMA30",
             "shortname": "AMA30"
          }
-      }
+      ]
    },
    {
       "name": "Corpus Christi",
@@ -8213,13 +8213,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "CRP01",
             "shortname": "CRP01"
          }
-      }
+      ]
    },
    {
       "name": "Rio Grande Valley International",
@@ -8231,13 +8231,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "HRL01",
             "shortname": "HRL01"
          }
-      }
+      ]
    },
    {
       "name": "Lubbock International",
@@ -8249,13 +8249,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "LBBA",
             "shortname": "LBBA"
          }
-      }
+      ]
    },
    {
       "name": "Midland International",
@@ -8267,13 +8267,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MAFA",
             "shortname": "MAFA"
          }
-      }
+      ]
    },
    {
       "name": "Miller International",
@@ -8285,13 +8285,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MFE01",
             "shortname": "MFE01"
          }
-      }
+      ]
    },
    {
       "name": "Abilene Regional",
@@ -8303,13 +8303,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "ABIA",
             "shortname": "ABIA"
          }
-      }
+      ]
    },
    {
       "name": "Waco Regional",
@@ -8321,13 +8321,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "ACTA",
             "shortname": "ACTA"
          }
-      }
+      ]
    },
    {
       "name": "Brownsville/South Padre International",
@@ -8339,13 +8339,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "BROA",
             "shortname": "BROA"
          }
-      }
+      ]
    },
    {
       "name": "Gregg County",
@@ -8357,13 +8357,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GGGA",
             "shortname": "GGGA"
          }
-      }
+      ]
    },
    {
       "name": "Killeen-Ft. Hood Regional",
@@ -8398,13 +8398,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "LRD 01",
             "shortname": "LRD 01"
          }
-      }
+      ]
    },
    {
       "name": "Sheppard AFB/ Wichita Falls Municipal",
@@ -8416,13 +8416,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SPS01",
             "shortname": "SPS01"
          }
-      }
+      ]
    },
    {
       "name": "Jefferson County",
@@ -8434,13 +8434,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "BPT01",
             "shortname": "BPT01"
          }
-      }
+      ]
    },
    {
       "name": "Easterwood Field",
@@ -8452,13 +8452,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "CLL01",
             "shortname": "CLL01"
          }
-      }
+      ]
    },
    {
       "name": "Del Rio International",
@@ -8470,13 +8470,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "DRT",
             "shortname": "DRT"
          }
-      }
+      ]
    },
    {
       "name": "Mathis Field",
@@ -8488,13 +8488,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SJTA",
             "shortname": "SJTA"
          }
-      }
+      ]
    },
    {
       "name": "Tyler Pounds Field",
@@ -8506,13 +8506,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "TYR01",
             "shortname": "TYR01"
          }
-      }
+      ]
    },
    {
       "name": "Victoria Regional",
@@ -8524,13 +8524,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "VCT01",
             "shortname": "VCT01"
          }
-      }
+      ]
    },
    {
       "name": "A.B. Won Pat International",
@@ -8542,13 +8542,13 @@
       "utc": 10,
       "dst": "False",
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GUM01",
             "shortname": "GUM01"
          }
-      }
+      ]
    },
    {
       "name": "Pago Pago-American Samoa",
@@ -8560,13 +8560,13 @@
       "utc": -11,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Pax Hold Room",
             "shortname": "Pax Hold Room"
          }
-      }
+      ]
    },
    {
       "name": "Salt Lake City International",
@@ -8606,13 +8606,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "ENVZ",
             "shortname": "ENVZ"
          }
-      }
+      ]
    },
    {
       "name": "Cedar City Municipal",
@@ -8624,13 +8624,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Screening Checkpoint",
             "shortname": "Screening Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Canyonlands Field",
@@ -8642,13 +8642,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "CNYZ",
             "shortname": "CNYZ"
          }
-      }
+      ]
    },
    {
       "name": "St. George Municipal",
@@ -8660,13 +8660,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SGUZ",
             "shortname": "SGUZ"
          }
-      }
+      ]
    },
    {
       "name": "Vernal Regional",
@@ -8678,13 +8678,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Security Checkpoint",
             "shortname": "Security Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Burlington International",
@@ -8719,13 +8719,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SFB-A",
             "shortname": "SFB-A"
          }
-      }
+      ]
    },
    {
       "name": "Cyril E. King International",
@@ -8905,13 +8905,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PHF01",
             "shortname": "PHF01"
          }
-      }
+      ]
    },
    {
       "name": "Roanoke Regional Woodrum Field",
@@ -8923,13 +8923,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "ROA01",
             "shortname": "ROA01"
          }
-      }
+      ]
    },
    {
       "name": "Charlottesville-Albemarle",
@@ -8941,13 +8941,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "CHO - Checkpoint",
             "shortname": "CHO - Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Lynchburg Regional",
@@ -8959,13 +8959,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "LYH - Checkpoint",
             "shortname": "LYH - Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Shenandoah Valley Regional",
@@ -8977,13 +8977,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "SHD - Checkpoint",
             "shortname": "SHD - Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Yeager",
@@ -8995,13 +8995,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "CRW01",
             "shortname": "CRW01"
          }
-      }
+      ]
    },
    {
       "name": "Tri-State",
@@ -9013,13 +9013,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Terminal",
             "shortname": "Main Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Greenbrier Valley",
@@ -9031,13 +9031,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Terminal",
             "shortname": "Main Terminal"
          }
-      }
+      ]
    },
    {
       "name": "Raleigh County Memorial",
@@ -9049,13 +9049,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint A",
             "shortname": "Checkpoint A"
          }
-      }
+      ]
    },
    {
       "name": "Benedun",
@@ -9067,13 +9067,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "CKB01",
             "shortname": "CKB01"
          }
-      }
+      ]
    },
    {
       "name": "Morgantown Municipal",
@@ -9085,13 +9085,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MGW-01",
             "shortname": "MGW-01"
          }
-      }
+      ]
    },
    {
       "name": "Wood County",
@@ -9103,13 +9103,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main",
             "shortname": "Main"
          }
-      }
+      ]
    },
    {
       "name": "Seattle-Tacoma International",
@@ -9182,13 +9182,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main SSC",
             "shortname": "Main SSC"
          }
-      }
+      ]
    },
    {
       "name": "Bellingham International",
@@ -9200,13 +9200,13 @@
       "utc": -8,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "BLIZ",
             "shortname": "BLIZ"
          }
-      }
+      ]
    },
    {
       "name": "Pangborn Memorial",
@@ -9218,13 +9218,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MAIN CHECKPOINT",
             "shortname": "MAIN CHECKPOINT"
          }
-      }
+      ]
    },
    {
       "name": "Tri-Cities",
@@ -9236,13 +9236,13 @@
       "utc": -8,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PSCZ",
             "shortname": "PSCZ"
          }
-      }
+      ]
    },
    {
       "name": "Pullman-Moscow Regional",
@@ -9254,13 +9254,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "PUW Main",
             "shortname": "PUW Main"
          }
-      }
+      ]
    },
    {
       "name": "Yakima Air Terminal",
@@ -9272,13 +9272,13 @@
       "utc": -8,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "YKMZ",
             "shortname": "YKMZ"
          }
-      }
+      ]
    },
    {
       "name": "General Mitchell International",
@@ -9318,13 +9318,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Austin Straubel Field",
@@ -9382,13 +9382,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Lacrosse Municipal",
@@ -9400,13 +9400,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Gate",
             "shortname": "Gate"
          }
-      }
+      ]
    },
    {
       "name": "Chippewa Valley Regional",
@@ -9418,13 +9418,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Rhinelander-Oneida County",
@@ -9436,13 +9436,13 @@
       "utc": -6,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "MAIN",
             "shortname": "MAIN"
          }
-      }
+      ]
    },
    {
       "name": "Natrona County International",
@@ -9454,13 +9454,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "CPR 01",
             "shortname": "CPR 01"
          }
-      }
+      ]
    },
    {
       "name": "Jackson Hole",
@@ -9472,13 +9472,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "JACZ",
             "shortname": "JACZ"
          }
-      }
+      ]
    },
    {
       "name": "Yellowstone Regional",
@@ -9490,13 +9490,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Cheyenne Regional",
@@ -9508,13 +9508,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Cheyenne Airport",
             "shortname": "Cheyenne Airport"
          }
-      }
+      ]
    },
    {
       "name": "Gillette-Campbell County",
@@ -9526,13 +9526,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "GCC",
             "shortname": "GCC"
          }
-      }
+      ]
    },
    {
       "name": "Laramine Regional",
@@ -9544,13 +9544,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Laramie Airport",
             "shortname": "Laramie Airport"
          }
-      }
+      ]
    },
    {
       "name": "Riverton Regional",
@@ -9562,13 +9562,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Rock Springs-Sweetwater County",
@@ -9580,13 +9580,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Sheridan County",
@@ -9598,13 +9598,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Worland Municipal",
@@ -9616,13 +9616,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Logan Cache",
@@ -9634,13 +9634,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "St. Augustine",
@@ -9652,13 +9652,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Northwest Florida Beaches International",
@@ -9670,13 +9670,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Willow Run",
@@ -9688,13 +9688,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Anniston Metropolitan",
@@ -9706,13 +9706,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Smyrna",
@@ -9724,13 +9724,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Monroe County",
@@ -9742,13 +9742,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Stillwater Regional",
@@ -9760,13 +9760,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Ocala International",
@@ -9778,13 +9778,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Bowling Green - Warren County Regional",
@@ -9796,13 +9796,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Purdue University",
@@ -9814,13 +9814,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Branson Airport",
@@ -9832,13 +9832,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Alexandria Esler Regional",
@@ -9850,13 +9850,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Oneida County Airport",
@@ -9868,13 +9868,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Mercer County Airport",
@@ -9886,13 +9886,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Unalaska",
@@ -9904,13 +9904,13 @@
       "utc": -9,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Groton-New London",
@@ -9922,13 +9922,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Trenton-Mercer Airport",
@@ -9940,13 +9940,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Gallup Municipal Airport",
@@ -9958,13 +9958,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "New Castle Airport",
@@ -9976,13 +9976,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Glacier Park International",
@@ -9994,13 +9994,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Lakeland Linder Regional Airport",
@@ -10012,13 +10012,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Lea County Regional",
@@ -10030,13 +10030,13 @@
       "utc": -7,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Provo Municipal",
@@ -10048,13 +10048,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Monroe County Airport",
@@ -10066,13 +10066,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "State College Airport",
@@ -10084,13 +10084,13 @@
       "utc": -5,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Tuscaloosa Regional",
@@ -10102,13 +10102,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Branson Airport",
@@ -10120,13 +10120,13 @@
       "utc": -6,
       "dst": true,
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Checkpoint",
             "shortname": "Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Grand Canyon National Park",
@@ -10138,13 +10138,13 @@
       "utc": -7,
       "dst": "False",
       "precheck": false,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Antonio Rivera Rodriquez Airport",
@@ -10156,13 +10156,13 @@
       "utc": -4,
       "dst": "False",
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main Checkpoint",
             "shortname": "Main Checkpoint"
          }
-      }
+      ]
    },
    {
       "name": "Ogden Hinckley",
@@ -10174,13 +10174,13 @@
       "utc": -7,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main",
             "shortname": "Main"
          }
-      }
+      ]
    },
    {
       "name": "Concord Regional Airport",
@@ -10204,13 +10204,13 @@
       "utc": -5,
       "dst": true,
       "precheck": true,
-      "checkpoints": {
-         "checkpoint": {
+      "checkpoints": [
+         {
             "id": 1,
             "longname": "Main",
             "shortname": "Main"
          }
-      }
+      ]
    },
    {
       "name": "Vero Beach Airport",
