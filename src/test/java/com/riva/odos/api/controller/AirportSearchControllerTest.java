@@ -37,7 +37,7 @@ public class AirportSearchControllerTest {
 		AirportInfoDto user = new AirportInfoDto("Bruce Banter", "Hero", "Avengies", "Male", "10/10/1980", "200000",
 				"test@test.com");
 
-		Mockito.when(userService.getUser()).thenReturn(user);
+		Mockito.when(userService.getAirports()).thenReturn(user);
 	};
 
 	@Test

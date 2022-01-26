@@ -1,5 +1,7 @@
 package com.riva.odos.api.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,8 +20,8 @@ public class AirportSearchController {
 	AirportService userService;
 	
     @RequestMapping(value="/search", method=RequestMethod.GET)
-    public AirportInfoDto search(@RequestParam(value="searchValue") String searchValue) {
-        return userService.getUser();
+    public List<AirportInfoDto> search(@RequestParam(value="searchValue") String searchValue) {
+        return userService.getAirports();
     }
     
 }
