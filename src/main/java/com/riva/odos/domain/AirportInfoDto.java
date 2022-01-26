@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class UserInfoDto {
+public class AirportInfoDto {
 	private String name;
 	private String occupation;
 	private String company;

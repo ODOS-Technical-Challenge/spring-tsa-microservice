@@ -18,23 +18,23 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 
-import com.riva.odos.domain.UserInfoDto;
-import com.riva.odos.services.UserService;
+import com.riva.odos.domain.AirportInfoDto;
+import com.riva.odos.services.AirportService;
 
 @ExtendWith(SpringExtension.class)
-@WebMvcTest(SearchController.class)
-@ContextConfiguration(classes = SearchController.class)
-public class SearchControllerTest {
+@WebMvcTest(AirportSearchController.class)
+@ContextConfiguration(classes = AirportSearchController.class)
+public class AirportSearchControllerTest {
 
 	@Autowired
 	private MockMvc mockMvc;
 
 	@MockBean
-	private UserService userService;
+	private AirportService userService;
 
 	@BeforeEach
 	public void setUp() {
-		UserInfoDto user = new UserInfoDto("Bruce Banter", "Hero", "Avengies", "Male", "10/10/1980", "200000",
+		AirportInfoDto user = new AirportInfoDto("Bruce Banter", "Hero", "Avengies", "Male", "10/10/1980", "200000",
 				"test@test.com");
 
 		Mockito.when(userService.getUser()).thenReturn(user);

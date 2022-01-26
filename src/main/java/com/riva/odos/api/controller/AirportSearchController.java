@@ -7,18 +7,18 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.riva.odos.domain.UserInfoDto;
-import com.riva.odos.services.UserService;
+import com.riva.odos.domain.AirportInfoDto;
+import com.riva.odos.services.AirportService;
 
 @RestController
 @RequestMapping(value="/api/v1", produces= {MediaType.APPLICATION_JSON_VALUE})
-public class SearchController {
+public class AirportSearchController {
 
 	@Autowired
-	UserService userService;
+	AirportService userService;
 	
     @RequestMapping(value="/search", method=RequestMethod.GET)
-    public UserInfoDto search(@RequestParam(value="searchValue") String searchValue) {
+    public AirportInfoDto search(@RequestParam(value="searchValue") String searchValue) {
         return userService.getUser();
     }
     
