@@ -1,2 +1,2 @@
-# spring-tsa-microservice
-Springboot search microservice
+# module-springboot-microservice
+OpenCloudCX springboot microservice template
