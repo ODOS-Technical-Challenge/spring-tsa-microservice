@@ -27,17 +27,15 @@ public class AirportService {
 			String contents = reader.lines().collect(Collectors.joining(System.lineSeparator()));
 			return contents;
 		} catch (Exception e) {
-			e.printStackTrace();
+			return null;
 		}
-		return null;
 	};
 	
 	private List<AirportInfoDto> parseJson(String json) {
 		try {
 			return objectMapper.readValue(json, new TypeReference<List<AirportInfoDto>>(){});
 		} catch (Exception e) {
-			e.printStackTrace();
+			return null;
 		}
-		return null;
 	}
 }
