@@ -2,6 +2,8 @@ package com.riva.odos.services;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -22,10 +24,9 @@ public class AirportService {
 	}
 
 	private String retrieveJson() {
-		try (FileReader fileReader = new FileReader("src/main/resources/AirportList.json");
-				BufferedReader reader = new BufferedReader(fileReader)) {
-			String contents = reader.lines().collect(Collectors.joining(System.lineSeparator()));
-			return contents;
+		try (InputStream in = getClass().getResourceAsStream("/AirportList.json");
+			    BufferedReader reader = new BufferedReader(new InputStreamReader(in))) {
+			return reader.lines().collect(Collectors.joining(System.lineSeparator()));
 		} catch (Exception e) {
 			return null;
 		}
