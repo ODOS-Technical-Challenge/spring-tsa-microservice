@@ -34,7 +34,8 @@ public class AirportSearchControllerTest {
 				.characterEncoding("utf-8").accept(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
 		mockMvc.perform(get("/api/v1/airportHistoricWaitTimes?airportShortCode=DCA").contentType(MediaType.APPLICATION_JSON)
 				.characterEncoding("utf-8").accept(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
-		
+		mockMvc.perform(get("/api/v1/predictedWaitTime?airportShortCode=DCA&date=2022-04-27T14:45:15").contentType(MediaType.APPLICATION_JSON)
+				.characterEncoding("utf-8").accept(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
 	}
 	
 }

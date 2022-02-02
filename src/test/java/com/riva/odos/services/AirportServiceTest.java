@@ -3,6 +3,7 @@ package com.riva.odos.services;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
@@ -15,6 +16,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.riva.odos.domain.AirportInfoDto;
 import com.riva.odos.domain.AirportWaitTimeDto;
+import com.riva.odos.domain.PredictedWaitTimeDto;
 
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = { AirportService.class, ObjectMapper.class })
@@ -69,6 +71,23 @@ class AirportServiceTest {
 		
 		requestedAirportWaitTimes = airportService.searchAirportHistoricWaitTimes(DCA);
 		assertEquals(expectedWaitTimeDto.getShortname(), requestedAirportWaitTimes.getShortname());
+	}
+	
+	@Test
+	public void testGetPredictedwaitTime() {
+		Date futureDate = new Date();
+		PredictedWaitTimeDto returnedPredictedWaitTimeDto = new PredictedWaitTimeDto();
+		
+		PredictedWaitTimeDto expectedPredictedWaitTimeDto = new PredictedWaitTimeDto();
+		expectedPredictedWaitTimeDto.setLongname(REAGAN);
+		expectedPredictedWaitTimeDto.setShortname(DCA);
+		expectedPredictedWaitTimeDto.setPredictedWaitMinutes(96L);
+
+		returnedPredictedWaitTimeDto = airportService.getPredictedwaitTime(DCA, futureDate);
+		
+		assertEquals(expectedPredictedWaitTimeDto.getShortname(), returnedPredictedWaitTimeDto.getShortname());
+		assertEquals(expectedPredictedWaitTimeDto.getLongname(), returnedPredictedWaitTimeDto.getLongname());
+		assertNotNull(returnedPredictedWaitTimeDto.getPredictedWaitMinutes());
 	}
 	
 	private List<AirportInfoDto> testAirportList(){
