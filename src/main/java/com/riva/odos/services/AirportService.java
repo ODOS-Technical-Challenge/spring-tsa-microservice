@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -38,5 +39,16 @@ public class AirportService {
 		} catch (Exception e) {
 			return null;
 		}
+	}
+	
+	public List<AirportInfoDto> searchAirports(String searchString){
+		List<AirportInfoDto> allAirports = getAirports();
+		List<AirportInfoDto> searchResults = new ArrayList<>();
+		for(AirportInfoDto airport: allAirports) {
+			if(airport.getShortcode().contains(searchString) || airport.getName().contains(searchString) || airport.getCity().contains(searchString)) {
+				searchResults.add(airport);
+			}
+		}
+		return searchResults;
 	}
 }

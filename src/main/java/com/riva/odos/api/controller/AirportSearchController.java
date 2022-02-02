@@ -17,11 +17,15 @@ import com.riva.odos.services.AirportService;
 public class AirportSearchController {
 
 	@Autowired
-	AirportService userService;
+	AirportService airportService;
 	
-    @RequestMapping(value="/search", method=RequestMethod.GET)
-    public List<AirportInfoDto> search(@RequestParam(value="searchValue") String searchValue) {
-        return userService.getAirports();
+    @RequestMapping(value="/airports", method=RequestMethod.GET)
+    public List<AirportInfoDto> search() {
+        return airportService.getAirports();
     }
     
+    @RequestMapping(value="/airportSearch", method=RequestMethod.GET)
+    public List<AirportInfoDto> search(@RequestParam(value="searchValue") String searchValue) {
+        return airportService.searchAirports(searchValue);
+    }
 }
