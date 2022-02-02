@@ -30,8 +30,8 @@ public class AirportSearchController {
         return airportService.searchAirports(searchValue);
     }
     
-    @RequestMapping(value="/airportWaitTime", method=RequestMethod.GET)
-    public List<AirportWaitTimeDto> airportWaitSearch(@RequestParam(value="airportShortCodes") List<String> airportShortCodes) {
-    	return airportService.searchAirportWaitTimes(airportShortCodes);
+    @RequestMapping(value="/airportHistoricWaitTimes", method=RequestMethod.GET)
+    public AirportWaitTimeDto airportWaitSearch(@RequestParam(value="airportShortCode") String airportShortCode) {
+    	return airportService.searchAirportHistoricWaitTimes(airportShortCode);
     }
 }

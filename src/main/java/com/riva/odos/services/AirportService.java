@@ -53,16 +53,27 @@ public class AirportService {
 		return searchResults;
 	}
 	
-	public List<AirportWaitTimeDto> searchAirportWaitTimes(List<String> airportShortCodes) {
+	public AirportInfoDto getSingleAirport(String shortCode) {
+		List<AirportInfoDto> allAirports = getAirports();
 		
-		List<AirportWaitTimeDto> requestedAirportWaitTimes = new ArrayList<>();
-		
-		for(String shortCode: airportShortCodes) {
-			for(AirportInfoDto airport: searchAirports(shortCode)) {
-				requestedAirportWaitTimes.add(buildMockAirportWaitTimeDto(airport));
+		for(AirportInfoDto airport: allAirports) {
+			if(airport.getShortcode().toUpperCase().contains(shortCode.toUpperCase())) {
+				return airport;
 			}
 		}
-		return requestedAirportWaitTimes;
+		return null;
+	}
+	
+	public AirportWaitTimeDto searchAirportHistoricWaitTimes(String airportShortCode) {
+		
+		AirportWaitTimeDto airportWaitTimes = new AirportWaitTimeDto();
+		AirportInfoDto airport = getSingleAirport(airportShortCode);
+		
+		if(airport != null) {
+			airportWaitTimes = buildMockAirportWaitTimeDto(airport);
+		}
+		
+		return airportWaitTimes;
 	}
 
 	protected AirportWaitTimeDto buildMockAirportWaitTimeDto(AirportInfoDto airport) {
@@ -82,4 +93,6 @@ public class AirportService {
 	    }
 	    return waitTimeList;
 	}
+	
+	
 }
