@@ -14,13 +14,17 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.riva.odos.domain.AirportInfoDto;
+import com.riva.odos.domain.AirportWaitTimeDto;
 
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = { AirportService.class, ObjectMapper.class })
 class AirportServiceTest {
+	
 	@Autowired
 	AirportService airportService;
 
+	private static final String DCA = "DCA";
+	
 	@Test
 	void shouldGetUser() {
 		List<AirportInfoDto> airPorts = airportService.getAirports();
@@ -29,6 +33,7 @@ class AirportServiceTest {
 	
 	//TODO: Test the below functions
 	public void testSearchAirports(){
+		
 		AirportInfoDto expectedAirportInfo = new AirportInfoDto();
 		expectedAirportInfo.setName("Washington Reagan National");
 		expectedAirportInfo.setShortcode("DCA");
@@ -40,43 +45,37 @@ class AirportServiceTest {
 		returnedAirportList = airportService.searchAirports("DCA");
 		
 		assertEquals(expectedAirportInfo, returnedAirportList);
-		
-		
 
 	}
-//	
-//	public List<AirportWaitTimeDto> searchAirportWaitTimes(List<String> airportShortCodes) {
-//		
-//		List<AirportWaitTimeDto> requestedAirportWaitTimes = new ArrayList<>();
-//		
-//		for(String shortCode: airportShortCodes) {
-//			for(AirportInfoDto airport: searchAirports(shortCode)) {
-//				requestedAirportWaitTimes.add(buildMockAirportWaitTimeDto(airport));
-//			}
-//		}
-//		return requestedAirportWaitTimes;
-//	}
-//
-//	protected AirportWaitTimeDto buildMockAirportWaitTimeDto(AirportInfoDto airport) {
-//		AirportWaitTimeDto airportWaitTime = new AirportWaitTimeDto();
-//		airportWaitTime.setLongname(airport.getName());
-//		airportWaitTime.setShortname(airport.getShortcode());
-//		airportWaitTime.setCurrentWaitMinutes(createMockListOfWaitTimes());
-//		return airportWaitTime;
-//	}
-//	
-//	protected List<Long> createMockListOfWaitTimes() {
-//		List<Long> waitTimeList = new ArrayList<>();
-//		Long minWait = 1L;
-//	    Long maxWait = 300L;
-//	    for(int i = 0; i < 25; i++) {
-//	    	waitTimeList.add(minWait + (long) (Math.random() * (maxWait - minWait)));
-//	    }
-//	    return waitTimeList;
-//	}
 	
+	@Test
+	public void testSearchAirportWaitTimes() {
+		AirportService mockedAirportService = Mockito.spy(airportService);
+		
+		List<AirportWaitTimeDto> requestedAirportWaitTimes = new ArrayList<>();
+		List<String> testShortCodes = new ArrayList<>();
+		testShortCodes.add("DCA");
+
+		AirportWaitTimeDto expectedWaitTimeDto = new AirportWaitTimeDto();
+		expectedWaitTimeDto.setLongname("Washington Reagan National");
+		expectedWaitTimeDto.setShortname(DCA);
+		expectedWaitTimeDto.setCurrentWaitMinutes(mockWaitList());
+		
+		List<AirportWaitTimeDto> expectedWaitTimeList = new ArrayList<>();
+		expectedWaitTimeList.add(expectedWaitTimeDto);
 	
-	
+		
+		List<AirportInfoDto> requestedAirportInfo = new ArrayList<>();
+		AirportInfoDto airportInfo = new AirportInfoDto();
+		airportInfo.setName("Washington Reagan National");
+		airportInfo.setShortcode("DCA");
+		requestedAirportInfo.add(airportInfo);
+		
+		Mockito.when(mockedAirportService.searchAirports(DCA)).thenReturn(requestedAirportInfo);
+		
+		requestedAirportWaitTimes = airportService.searchAirportWaitTimes(testShortCodes);
+		assertEquals(expectedWaitTimeList.get(0).getLongname(), requestedAirportWaitTimes.get(0).getLongname());
+	}
 	
 	private List<AirportInfoDto> testAirportList(){
 		List<AirportInfoDto> mockAirportList = new ArrayList<>();
@@ -89,6 +88,7 @@ class AirportServiceTest {
 		mockAirportList.add(airportInfo);
 		return mockAirportList;
 	}
+	
 	private List<Long> mockWaitList(){
 		List<Long> mockWaitList = new ArrayList<>();
 		mockWaitList.add(208L);

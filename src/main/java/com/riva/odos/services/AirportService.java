@@ -45,7 +45,8 @@ public class AirportService {
 		List<AirportInfoDto> allAirports = getAirports();
 		List<AirportInfoDto> searchResults = new ArrayList<>();
 		for(AirportInfoDto airport: allAirports) {
-			if(airport.getShortcode().contains(searchString) || airport.getName().contains(searchString) || airport.getCity().contains(searchString)) {
+			if(airport.getShortcode().toUpperCase().contains(searchString.toUpperCase()) || airport.getName().toUpperCase().contains(searchString.toUpperCase()) 
+					|| airport.getCity().toUpperCase().contains(searchString.toUpperCase()) || airport.getState().toUpperCase().contains(searchString.toUpperCase())) {
 				searchResults.add(airport);
 			}
 		}
