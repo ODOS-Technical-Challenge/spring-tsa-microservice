@@ -24,11 +24,17 @@ public class AirportSearchControllerTest {
 	private MockMvc mockMvc;
 
 	@MockBean
-	private AirportService userService;
+	private AirportService airportService;
 
 	@Test
 	public void testController() throws Exception {
-		mockMvc.perform(get("/api/v1/search?searchValue=user").contentType(MediaType.APPLICATION_JSON)
+		mockMvc.perform(get("/api/v1/airports").contentType(MediaType.APPLICATION_JSON)
 				.characterEncoding("utf-8").accept(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
+		mockMvc.perform(get("/api/v1/airportSearch?searchValue=user").contentType(MediaType.APPLICATION_JSON)
+				.characterEncoding("utf-8").accept(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
+		mockMvc.perform(get("/api/v1/airportWaitTime?airportShortCodes=user").contentType(MediaType.APPLICATION_JSON)
+				.characterEncoding("utf-8").accept(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
+		
 	}
+	
 }
