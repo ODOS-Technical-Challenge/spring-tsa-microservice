@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -14,6 +15,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.riva.odos.domain.AirportInfoDto;
 import com.riva.odos.domain.AirportWaitTimeDto;
+import com.riva.odos.domain.PredictedWaitTimeDto;
 import com.riva.odos.domain.DelayTimeDto;
 
 @Service
@@ -54,16 +56,37 @@ public class AirportService {
 		return mockDelayTimes(searchResults);
 	}
 	
-	public List<AirportWaitTimeDto> searchAirportWaitTimes(List<String> airportShortCodes) {
+	public AirportInfoDto getSingleAirport(String shortCode) {
+		List<AirportInfoDto> allAirports = getAirports();
 		
-		List<AirportWaitTimeDto> requestedAirportWaitTimes = new ArrayList<>();
-		
-		for(String shortCode: airportShortCodes) {
-			for(AirportInfoDto airport: searchAirports(shortCode)) {
-				requestedAirportWaitTimes.add(buildMockAirportWaitTimeDto(airport));
+		for(AirportInfoDto airport: allAirports) {
+			if(airport.getShortcode().toUpperCase().contains(shortCode.toUpperCase())) {
+				return airport;
 			}
 		}
-		return requestedAirportWaitTimes;
+		return null;
+	}
+	
+	public AirportWaitTimeDto searchAirportHistoricWaitTimes(String airportShortCode) {
+		
+		AirportWaitTimeDto airportWaitTimes = new AirportWaitTimeDto();
+		AirportInfoDto airport = getSingleAirport(airportShortCode);
+		
+		if(airport != null) {
+			airportWaitTimes = buildMockAirportWaitTimeDto(airport);
+		}
+		
+		return airportWaitTimes;
+	}
+	
+	public PredictedWaitTimeDto getPredictedwaitTime(String airportShortCode, Date futureDate) {
+		PredictedWaitTimeDto predictedWaitTime = new PredictedWaitTimeDto();
+		AirportInfoDto airport = new AirportInfoDto();
+		airport = getSingleAirport(airportShortCode);
+		if(airport != null) {
+			predictedWaitTime = buildMockPredictedWaitTimeDto(airport);
+		}
+		return predictedWaitTime;
 	}
 	
 	private List<AirportInfoDto> mockDelayTimes(List<AirportInfoDto> airports) {
@@ -92,6 +115,18 @@ public class AirportService {
 		return airportWaitTime;
 	}
 	
+	protected PredictedWaitTimeDto buildMockPredictedWaitTimeDto(AirportInfoDto airport) {
+		Long minWait = 1L;
+	    Long maxWait = 120L;
+		
+		PredictedWaitTimeDto predictedWaitTime = new PredictedWaitTimeDto();
+		predictedWaitTime.setLongname(airport.getName());
+		predictedWaitTime.setShortname(airport.getShortcode());
+		predictedWaitTime.setPredictedWaitMinutes(minWait + (long) (Math.random() * (maxWait - minWait)));
+		
+		return predictedWaitTime;
+	}
+	
 	protected List<Long> createMockListOfWaitTimes() {
 		List<Long> waitTimeList = new ArrayList<>();
 		Long minWait = 1L;
@@ -101,4 +136,6 @@ public class AirportService {
 	    }
 	    return waitTimeList;
 	}
+	
+	
 }
