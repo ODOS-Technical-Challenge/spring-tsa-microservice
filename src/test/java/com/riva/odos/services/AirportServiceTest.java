@@ -26,7 +26,7 @@ class AirportServiceTest {
 	private static final String DCA = "DCA";
 	
 	@Test
-	void shouldGetUser() {
+	void shouldGetAirports() {
 		List<AirportInfoDto> airPorts = airportService.getAirports();
 		assertTrue(airPorts.size() > 0);
 	}
