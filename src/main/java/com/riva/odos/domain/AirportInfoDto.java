@@ -23,5 +23,5 @@ public class AirportInfoDto implements Serializable {
 	private Boolean precheck;
 	@JsonProperty("checkpoints")
 	private List<CheckPointDto> checkpoints;
+	private DelayTimeDto delayTimes;
 }
-
