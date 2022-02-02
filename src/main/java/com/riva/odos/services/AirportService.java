@@ -16,6 +16,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.riva.odos.domain.AirportInfoDto;
 import com.riva.odos.domain.AirportWaitTimeDto;
 import com.riva.odos.domain.PredictedWaitTimeDto;
+import com.riva.odos.domain.DelayTimeDto;
 
 @Service
 public class AirportService {
@@ -37,7 +38,7 @@ public class AirportService {
 	
 	private List<AirportInfoDto> parseJson(String json) {
 		try {
-			return objectMapper.readValue(json, new TypeReference<List<AirportInfoDto>>(){});
+			return mockDelayTimes(objectMapper.readValue(json, new TypeReference<List<AirportInfoDto>>(){}));
 		} catch (Exception e) {
 			return null;
 		}
@@ -52,7 +53,7 @@ public class AirportService {
 				searchResults.add(airport);
 			}
 		}
-		return searchResults;
+		return mockDelayTimes(searchResults);
 	}
 	
 	public AirportInfoDto getSingleAirport(String shortCode) {
@@ -88,6 +89,24 @@ public class AirportService {
 		return predictedWaitTime;
 	}
 	
+	private List<AirportInfoDto> mockDelayTimes(List<AirportInfoDto> airports) {
+		airports.forEach((airport) -> airport.setDelayTimes(mockDelayTime()));
+		return airports;
+	}
+	
+	private DelayTimeDto mockDelayTime() {
+		Integer minEstimatedWaitTime = (int) (Math.random() * 60);
+		Integer maxEstimatedWaitTime = (int) (minEstimatedWaitTime + (Math.random() * 120));
+		Integer maxEstimatedPrecheckTime = (int) (Math.random() * 60);
+
+		DelayTimeDto delayTime = new DelayTimeDto();
+		delayTime.setMinEstimatedWaitTime(minEstimatedWaitTime);
+		delayTime.setMaxEstimatedWaitTime(maxEstimatedWaitTime);
+		delayTime.setMaxEstimatedPrecheckTime(maxEstimatedPrecheckTime);
+
+		return delayTime;
+	}
+
 	protected AirportWaitTimeDto buildMockAirportWaitTimeDto(AirportInfoDto airport) {
 		AirportWaitTimeDto airportWaitTime = new AirportWaitTimeDto();
 		airportWaitTime.setLongname(airport.getName());
