@@ -15,7 +15,7 @@ public class SpringFoxConfig {
         return new Docket(DocumentationType.SWAGGER_2)  
           .select()                                  
           .apis(RequestHandlerSelectors.basePackage("com.riva.odos.api.controller"))              
-          .paths(PathSelectors.regex("/api/v1/.*"))                          
+          .paths(PathSelectors.any())                          
           .build();                                           
     }
 }
