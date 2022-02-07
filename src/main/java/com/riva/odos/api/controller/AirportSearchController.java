@@ -9,7 +9,6 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -26,17 +25,17 @@ public class AirportSearchController {
 	@Autowired
 	AirportService airportService;
 	
-    @RequestMapping(value="/airports", method=RequestMethod.GET)
+    @GetMapping(value="/airports")
     public List<AirportInfoDto> search() {
         return airportService.getAirports();
     }
     
-    @RequestMapping(value="/airportSearch", method=RequestMethod.GET)
+    @GetMapping(value="/airportSearch")
     public List<AirportInfoDto> airportSearch(@RequestParam(value="searchValue") String searchValue) {
         return airportService.searchAirports(searchValue);
     }
     
-    @RequestMapping(value="/airportHistoricWaitTimes", method=RequestMethod.GET)
+    @GetMapping(value="/airportHistoricWaitTimes")
     public AirportWaitTimeDto airportWaitSearch(@RequestParam(value="airportShortCode") String airportShortCode) {
     	return airportService.searchAirportHistoricWaitTimes(airportShortCode);
     }

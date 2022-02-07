@@ -27,20 +27,20 @@ public class AirportService {
 		return parseJson(retrieveJson());
 	}
 
-	private String retrieveJson() {
+	protected String retrieveJson() {
 		try (InputStream in = getClass().getResourceAsStream("/AirportList.json");
 			    BufferedReader reader = new BufferedReader(new InputStreamReader(in))) {
 			return reader.lines().collect(Collectors.joining(System.lineSeparator()));
 		} catch (Exception e) {
 			return null;
 		}
-	};
+	}
 	
-	private List<AirportInfoDto> parseJson(String json) {
+	protected List<AirportInfoDto> parseJson(String json) {
 		try {
 			return mockDelayTimes(objectMapper.readValue(json, new TypeReference<List<AirportInfoDto>>(){}));
 		} catch (Exception e) {
-			return null;
+			return new ArrayList<>();
 		}
 	}
 	
@@ -81,8 +81,7 @@ public class AirportService {
 	
 	public PredictedWaitTimeDto getPredictedwaitTime(String airportShortCode, Date futureDate) {
 		PredictedWaitTimeDto predictedWaitTime = new PredictedWaitTimeDto();
-		AirportInfoDto airport = new AirportInfoDto();
-		airport = getSingleAirport(airportShortCode);
+		AirportInfoDto airport = getSingleAirport(airportShortCode);
 		if(airport != null) {
 			predictedWaitTime = buildMockPredictedWaitTimeDto(airport);
 		}
